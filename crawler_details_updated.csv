@@ -1,0 +1,4 @@
+crawler_name,database_name,s3_path,role
+datlake,appetize,service-role/AWSGlueServiceRole-dataplatform,s3://msg-datalake-us-east-1-dev/appetize-api/source/
+
+datalake-medallia,appetize,service-role/AWSGlueServiceRole-dataplatform,s3://msg-datalake-us-east-1-dev/appetize-api/source/
