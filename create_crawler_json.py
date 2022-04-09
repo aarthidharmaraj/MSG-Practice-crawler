@@ -1,4 +1,4 @@
-"""This module had script for create crawler in s3 path of csv file,"""
+"""This module had script for create crawler in aws from the json definiton"""
 
 import csv
 import json
@@ -44,7 +44,7 @@ class CreateCrawler:
     """This is the Crawler class in the module"""
 
     def __init__(self, crawler_name, database_name, s3_path, role):
-        """This is the init method of class ModifyFile"""
+        """This is the init method of class CreateCrawler"""
         self.crawler_name = crawler_name
         self.database_name = database_name
         self.s3_path = s3_path
